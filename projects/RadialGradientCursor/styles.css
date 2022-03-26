@@ -1,0 +1,18 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.radial-gradient {
+    height:100%;
+    width:100%;
+    
+    /*Fallback if gradeints don't work */
+    background: #9b59b6;
+    /*Linear gradient... */
+    background: 
+      radial-gradient(
+       at center, #ffffff, #ffffff
+      );
+  }
